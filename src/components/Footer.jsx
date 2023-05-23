@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ onChange }) => {
   return (
     <div className="add_match">
-      <button className="btn lws-addMatch addBtn">Add Another Match</button>
+      <button className="btn lws-addMatch addBtn" onChange={onChange}>
+        Add Another Match
+      </button>
       <button className="lws-reset">
         <svg
           fill="none"

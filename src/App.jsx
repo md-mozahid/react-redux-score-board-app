@@ -11,7 +11,6 @@ function App() {
         <Provider store={store}>
           <Header />
           <List />
-          <Footer />
         </Provider>
       </section>
     </>
